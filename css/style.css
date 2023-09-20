@@ -75,6 +75,7 @@
   position: relative;
   z-index: 1;
 }
+
 /* -- quote -- */
 
 .quote {
@@ -89,6 +90,12 @@
   word-wrap: break-word;
   padding-left: 100px;
   padding-right: 100px;
+}
+
+/* -- photo --*/
+
+img.photo-1 {
+  border-radius: 50%;
 }
 
 /* -- content --*/
@@ -116,6 +123,14 @@
 a.extlink {
   color: rgb(102, 163, 255);
   text-decoration: none;
+}
+
+#bio {
+  align-items: center;
+  text-align: auto;
+  margin: auto;
+  width: 50%;
+  vertical-align: middle;
 }
 
 /* -- images -- */
