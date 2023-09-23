@@ -1,127 +1,155 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+      rel="stylesheet"
+    />
+    <script src="./javascripts/reaction.js"></script>
+    <title>Wenxin Qi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <link href="css/style.css" rel="stylesheet"></link>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-  <script src="./javascripts/reaction.js"></script>
-  <title> Wenxin Qi </title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
+  <body>
+    <header class="container-fluid">
+      <div class="navtext">
+        <h1 class="navtitle">
+          <a class="navhome" href="./index.html">Wenxin's</a>
+        </h1>
+        <a class="navitem" href="./index.html">Home</a>
+        <a class="navitem" href="./me.html">Me</a>
+        <a class="navitem" href="./research.html">Research</a>
+        <a class="navitem navselected" href="./resume.html">Resume</a>
+        <a class="navitem" href="./contact.html">Contact</a>
+      </div>
+    </header>
 
-<body>
-
-  <header class="container-fluid">
-    <div class="navtext">
-      <h1 class="navtitle"><a class="navhome" href="./index.html">Wenxin's</a></h1>
-      <a class="navitem" href="./index.html">Home</a>
-      <a class="navitem" href="./me.html">Me</a>
-      <a class="navitem" href="./research.html">Research</a>
-      <a class="navitem navselected" href="./resume.html">Resume</a>
-      <a class="navitem" href="./contact.html">Contact</a>
+    <div class="navimg">
+      <img class="navimg" src="./images/jhu.jpg" alt="A photo of JHU" />
+      <div class="quote">
+        People never learn anything by being told,they have to find out for
+        themselves
+      </div>
     </div>
-  </header>
 
-  <div class="navimg">
-    <img class="navimg" src="./images/jhu.jpg">
-    <div class="quote">
-      People never learn anything by being told,they have to find out for themselves
+    <div class="content">
+      <table>
+        <thead>
+          <tr>
+            <th>Education</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tableentry">Northeastern University, SV, WA</td>
+            <td class="tableyear">2023-now</td>
+          </tr>
+          <tr>
+            <td class="tableentry"><em>M.S.in Computer Science</em></td>
+          </tr>
+          <tr>
+            <td class="tableentry">Johns Hokpins University, Baltimore, MD</td>
+            <td class="tableyear">2020-2022</td>
+          </tr>
+          <tr>
+            <td class="tableentry">
+              <em>M.S.in Chemical and Biomolecular Engineering.</em>
+            </td>
+          </tr>
+          <tr>
+            <td class="tableentry">
+              East China University of Science and Technology, Shanghai, China
+            </td>
+            <td class="tableyear">2016-2020</td>
+          </tr>
+          <tr>
+            <td class="tableentry">
+              <em>B.E.in Pharmaceutical Engineering.</em>
+            </td>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th class="tableentry">Skills</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tableentry">Python,C, Java, HTML, CSS, JavaScript</td>
+          </tr>
+          <tr>
+            <td class="tableentry">Data analysis: Origin Lab, Matlab</td>
+          </tr>
+          <tr>
+            <td class="tableentry">
+              Tools: Linux, Git, Jupyter Notebook, MATLAB
+            </td>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tableentry">Molecular simulation code development</td>
+            <td class="tableyear">2020-2022</td>
+          </tr>
+          <tr>
+            <td class="tableentry">Molecular model building</td>
+            <td class="tableyear">2019</td>
+          </tr>
+          <tr>
+            <td class="tableentry">“Happy AI Tetris” - Game Design</td>
+            <td class="tableyear">2021</td>
+          </tr>
+          <tr>
+            <td class="tableentry">TuneTastic - IOS App Development</td>
+            <td class="tableyear">2023</td>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
+            <th>Selected Award & Conferences</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tableentry" colspan="2">
+              Second prize, Academic Excellent Student Scholarship, ECUST
+            </td>
+          </tr>
+          <tr>
+            <td class="tableentry" colspan="2">
+              Outstanding Proactive Individual Award in Extracurricular
+              Activities in ECUST
+            </td>
+          </tr>
+          <tr>
+            <td class="tableentry" colspan="2">
+              Silver award, “Hualu Technology Cup” University Student
+              Entrepreneurship Competition
+            </td>
+          </tr>
+          <tr>
+            <td class="tableentry" colspan="2">
+              Wenxin Qi, Isaiah Y. Chen and Paulette Clancy. Research
+              Conferences: Materials Research Society, <strong>2022</strong>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
-  </div>
-
-  <div class="content">
-    <table>
-      <thead>
-        <tr>
-          <th>Education</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="tableentry">Northeastern University, SV, WA</td>
-          <td class="tableyear">2023-now</td>
-        </tr>
-        <tr>
-          <td class="tableentry"><em>M.S.in Computer Science</em></td>
-        </tr>
-        <tr>
-          <td class="tableentry">Johns Hokpins University, Baltimore, MD</td>
-          <td class="tableyear">2020-2022</td>
-        </tr>
-        <tr>
-          <td class="tableentry"><em>M.S.in Chemical and Biomolecular Engineering.</em></td>
-        </tr>
-        <tr>
-          <td class="tableentry">East China University of Science and Technology, Shanghai, China</td>
-          <td class="tableyear">2016-2020</td>
-        </tr>
-        <tr>
-          <td class="tableentry"><em>B.E.in Pharmaceutical Engineering.</em></td>
-        </tr>
-      </tbody>
-      <thead>
-        <tr>
-          <th class="tableentry">Skills</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="tableentry">Python,C, Java, HTML, CSS, JavaScript</td>
-        </tr>
-        <tr>
-          <td class="tableentry">Data analysis: Origin Lab, Matlab</td>
-        </tr>
-        <tr>
-          <td class="tableentry">Tools: Linux, Git, Jupyter Notebook, MATLAB</td>
-        </tr>
-      </tbody>
-      <thead>
-        <tr>
-          <th>Experience</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="tableentry">Molecular simulation code development</td>
-          <td class="tableyear">2020-2022</td>
-        </tr>
-        <tr>
-          <td class="tableentry">Molecular model building</td>
-          <td class="tableyear">2019</td>
-        </tr>
-        <tr>
-          <td class="tableentry">“Happy AI Tetris” - Game Design</td>
-          <td class="tableyear">2021</td>
-        </tr>
-        <tr>
-          <td class="tableentry">TuneTastic - IOS App Development</td>
-          <td class="tableyear">2023</td>
-        </tr>
-      </tbody>
-      <thead>
-        <tr>
-          <th>Selected Award & Conferences</th> 
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="tableentry" colspan="2">Second prize, Academic Excellent Student Scholarship, ECUST</td>
-        </tr>
-        <tr>
-          <td class="tableentry" colspan="2">Outstanding Proactive Individual Award in Extracurricular Activities in ECUST</td>
-        </tr>
-        <tr>
-          <td class="tableentry" colspan="2">Silver award, “Hualu Technology Cup” University Student Entrepreneurship Competition</td>
-        </tr>
-        <tr>
-          <td class="tableentry" colspan="2">Wenxin Qi, Isaiah Y. Chen and Paulette Clancy. Research Conferences: Materials Research Society, <strong>2022</strong></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-</body>
+  </body>
+</html>
