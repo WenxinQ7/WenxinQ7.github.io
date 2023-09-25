@@ -1,10 +1,10 @@
-# YuanGao Personal Web Page Project
-## Assignment of CS5610 Web Development in Northeastern University
-This is the personal web page of Yuan. It tells you about Yuan's research, personal fun facts, and experience.
+# Wenxin Qi Personal Web Page Project
+## Project of CS5610 Web Development in Northeastern University
+This is the personal web page of Wenxin. It tells you about Wenxin's research, personal fun facts, and experience.
 ## Link
-Click [here](https://yuangao-home.herokuapp.com) to view Yuan's web page!
+Click [here][(https://github.com/WenxinQ7/WenxinWebPage/blob/master/index.html)] to view Wenxin's web page!
 ## Screenshots
-1. Home page of Yuan's personal web page.
+1. Home page of Wenxin's personal web page.
 ![sc](/readmeImages/screenshot-home1.png)
 ![sc](/readmeImages/screenshot-home2.png)
 2. Yuan's research
