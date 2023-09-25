@@ -1,92 +1,113 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+      rel="stylesheet"
+    />
+    <script src="./javascripts/reaction.js"></script>
+    <title>Wenxin Qi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <link href="css/style.css" rel="stylesheet"></link>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-  <script src="./javascripts/reaction.js"></script>
-  <title> Wenxin Qi </title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-
-<body>
-
-  <header class="container-fluid">
-    <div class="navtext">
-      <h1 class="navtitle"><a class="navhome" href="./index.html">Wenxin's</a></h1>
-      <a class="navitem" href="./index.html">Home</a>
-      <a class="navitem" href="./me.html">Me</a>
-      <a class="navitem navselected" href="./research.html">Research</a>
-      <a class="navitem" href="./resume.html">Resume</a>
-      <a class="navitem" href="./contact.html">Contact</a>
-    </div>
-  </header>
-
-  <div class="navimg">
-    <img src="./images/research.jpg">
-    <div class="quote">
-      Self-assembly of Nanocrystals simulation
-    </div>
-  </div>
-
-  <div class="container text-center">
-    <div class="row justify-content-md-center">
-      <div class="col-md-auto">
-        <img src="./images/clancy.png" loading="lazy" width="50" alt="A photo of clancy lab." class="photo-1">
+  <body>
+    <header class="container-fluid">
+      <div class="navtext">
+        <h1 class="navtitle">
+          <a class="navhome" href="./index.html">Wenxin's</a>
+        </h1>
+        <a class="navitem" href="./index.html">Home</a>
+        <a class="navitem" href="./me.html">Me</a>
+        <a class="navitem navselected" href="./research.html">Research</a>
+        <a class="navitem" href="./resume.html">Resume</a>
+        <a class="navitem" href="./contact.html">Contact</a>
       </div>
-      <div class="col" id="bio">
-        <p class="paragraph-6">I was in Prof. Clancy's lab during my first Master program at JHU. Our focus is to use computational approaches to mathematically model and simulate the atomic and molecular behavior of materials. In particular, we study semiconductor materials.</p>
+    </header>
+
+    <div class="navimg">
+      <img src="./images/research.jpg" alt="Background photo of my research" />
+      <div class="quote">Self-assembly of Nanocrystals simulation</div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <img
+            src="./images/clancy.png"
+            loading="lazy"
+            width="50"
+            alt="A photo of clancy lab."
+            class="photo-1"
+          />
+        </div>
+        <div class="col" id="bio">
+          <p class="paragraph-6">
+            I was in Prof. Clancy's lab during my first Master program at JHU.
+            Our focus is to use computational approaches to mathematically model
+            and simulate the atomic and molecular behavior of materials. In
+            particular, we study semiconductor materials.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="content">
-    <h2>
-      1. Goal: Self-assembly of nanocrystals with perfect alignment
-    </h2>
-    <div class="research-img">
-      <image src="./images/research-1.jpg.png">
+    <div class="content">
+      <h2>1. Goal: Self-assembly of nanocrystals with perfect alignment</h2>
+      <div class="research-img">
+        <img src="./images/research-1.jpg.png" alt="research intro photo" />
+      </div>
+      <p>
+        Lead chalcogenide(e.g.PbS) have great promise for solar cell devices,
+        exploiting their quantum confinement.To be effective, charge transport
+        between QDs needs to be efficient, meaning close and perfectly aligned.
+        This self-assembly process is typically facilitated Using a liq-liq
+        interface using a monolayer of ligands.
+      </p>
+      <h2>2. Goals of This Study</h2>
+      <div class="research-img">
+        <img src="./images/research-2.png" alt="research process photo" />
+      </div>
+      <p>
+        Establish mechanism and rules for the directed assembly and epitaxial
+        attachment of colloidal nanocrystals (NC) Can we help design the best
+        monolayer (ML) to encourage perfect assembly
+      </p>
+      <h2>
+        3. Monolayer Density Affects the Quality of NC Coupling in an Unexpected
+        Way
+      </h2>
+      <div class="research-img">
+        <img src="./images/research-3.png" alt="research result photo" />
+      </div>
+      <p>
+        NC coupling status depends sensitively on the density of the ML. NCs are
+        well aligned (preferred orientation) in the x-y plane at low and high
+        monolayer density system. Misalignment is higher at medium density
+        systems. In contrast, as ML density increases, it hinders the parallel
+        movement of NCs, and the tilt angle of each NC becomes larger (not
+        favorable)
+      </p>
+      <h2>4. ML Molecule Length Impacts NC Coupling</h2>
+      <div class="research-img">
+        <img src="./images/research-4.png" alt="research conclusion photo" />
+      </div>
+      <p>
+        Avoid intermediate ML densities. Very dense surfaces or very low density
+        MLs are conducive to better in-plane alignment. Considering the balance
+        between two kinds of misalignment factors. Exploring the favorable
+        assembling behavior for charge transport. Shorter ML molecule “tails”
+        lead to better alignment of NCs under the same ML density condition.
+      </p>
     </div>
-    <p>
-      Lead chalcogenide(e.g.PbS) have great promise for solar cell devices, exploiting their quantum confinement.To be effective, charge transport between QDs needs to be efficient, meaning close and perfectly aligned. This self-assembly process is typically facilitated
-      Using a liq-liq interface using a monolayer of ligands.
-    </p>
-    <h2>
-      2. Goals of This Study
-    </h2>
-    <div class="research-img">
-      <image src="./images/research-2.png">
-    </div>
-    <p>
-      Establish mechanism and rules for the directed assembly and epitaxial attachment of colloidal nanocrystals (NC)
-      Can we help design the best monolayer (ML) to encourage perfect assembly      
-    </p>
-    <h2>
-      3. Monolayer Density Affects the Quality of NC Coupling in an Unexpected Way
-    </h2>
-    <div class="research-img">
-      <image src="./images/research-3.png">
-    </div>
-    <p>
-      NC coupling status depends sensitively on the density of the ML. NCs are well aligned (preferred orientation) in the x-y plane at low and high monolayer density system. Misalignment is higher at medium density systems. In contrast,  as ML density increases, it  hinders the parallel movement of NCs, and the tilt angle of each NC becomes larger (not favorable)
-    </p>
-    <h2>
-      4. ML Molecule Length Impacts NC Coupling
-    </h2>
-    <div class="research-img">
-      <image src="./images/research-4.png">
-    </div>
-    <p>
-      Avoid intermediate ML densities. Very dense surfaces or very low density MLs are conducive to better in-plane alignment.
-      Considering the balance between two kinds of misalignment factors. Exploring the favorable assembling behavior for charge transport.
-      Shorter ML molecule “tails” lead to better alignment of NCs under the same ML density condition. 
-    </p>
-  </div>
-
-</body>
+  </body>
 </html>
