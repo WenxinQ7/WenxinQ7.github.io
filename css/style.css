@@ -107,7 +107,7 @@ img.photo-1 {
 }
 
 .content h2 {
-  font-size: 22px;
+  font-size: 25px;
   padding-top: 20px;
   padding-bottom: 40px;
 }
@@ -131,6 +131,17 @@ a.extlink {
   margin: auto;
   width: 50%;
   vertical-align: middle;
+}
+
+.col h2 {
+  font-size: 60px;
+  font-family: Papyrus, fantasy;
+  line-height: 1.8;
+}
+
+.col p {
+  font-size: 20px;
+  font-family: Courier, monospace;
 }
 
 /* -- images -- */
